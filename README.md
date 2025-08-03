@@ -23,7 +23,9 @@ On a glance (and as I suspected all this while), Svelte is kinda similar to Vue 
 
 ### Data Fetching and Mutation
 
-Due to time constraint, I decided to not use database (though if have enough time to add a DB, might just use SQLite + Drizzle since currently am playing with this in another side project), but instead the todo list in memory. API routes are created for managing todos (GET and POST). Form action is used to handle the create task form submission (by calling the API route behind the scene).
+Due to time constraint, I decided to not use database (though if have enough time to add a DB, might just use SQLite + Drizzle since currently am playing with this in another side project), but instead the todo list in memory. The todo array is kept in `lib/server/todo.ts` file.
+
+API routes are created for managing todos (GET and POST). Form action is used to handle the create task form submission (by calling the API route behind the scene).
 
 Loading the todos data is done on the server by using the `load` function. I did try directly using `await` in `page.svelte`, but it doesn't work except I turn on an experimental feature, but decided to skip and not explore that route first. (I think that might be Svelte's version of React Server Components?)
 
