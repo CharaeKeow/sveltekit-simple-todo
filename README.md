@@ -20,3 +20,9 @@ This section is my musing as I develop this app.
 ### Svelte & SvelteKit
 
 On a glance (and as I suspected all this while), Svelte is kinda similar to Vue (_Still prefer React/JSX style tho_). Thanks to my experience in Next, and some of Vue/Nuxt, I can quickly get the hang of both Svelte and SvelteKit (at a very surface level).
+
+### Looping through todos and props passing
+
+Quite interesting that Svelte uses `{#each}` (expected it to be `for`). And find it cool that I don't have to pass in `key` prop like in React. Props passing does take time for me to get used to, but looks straightforward and simple to me.
+
+My only complain so far is all the JS code needs to be in the `<script>` tag, but it's not a deal breaker (and one could argue that this makes the code more organized?)
