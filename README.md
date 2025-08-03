@@ -21,7 +21,7 @@ This section is my musing as I develop this app.
 
 On a glance (and as I suspected all this while), Svelte is kinda similar to Vue (_Still prefer React/JSX style tho_). Thanks to my experience in Next, and some of Vue/Nuxt, I can quickly get the hang of both Svelte and SvelteKit (at a very surface level).
 
-### Data Fetching and Mutating
+### Data Fetching and Mutation
 
 Due to time constraint, I decided to not use database, but instead the todo list in memory. API routes are created for managing todos (GET and POST). Form action is used to handle the create task form submission (by calling the API route behind the scene).
 
