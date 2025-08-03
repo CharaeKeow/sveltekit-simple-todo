@@ -5,7 +5,7 @@ export const todos: Todo[] = [
 	{
 		uuid: '1',
 		task: 'Learn SvelteKit',
-		is_done: false
+		is_done: true
 	},
 	{
 		uuid: '2',
