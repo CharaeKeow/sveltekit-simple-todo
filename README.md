@@ -21,6 +21,12 @@ This section is my musing as I develop this app.
 
 On a glance (and as I suspected all this while), Svelte is kinda similar to Vue (_Still prefer React/JSX style tho_). Thanks to my experience in Next, and some of Vue/Nuxt, I can quickly get the hang of both Svelte and SvelteKit (at a very surface level).
 
+### Data Fetching and Mutating
+
+Due to time constraint, I decided to not use database, but instead the todo list in memory. API routes are created for managing todos (GET and POST). Form action is used to handle the create task form submission (by calling the API route behind the scene).
+
+Loading the todos data is done on the server by using the `load` function. I did try directly using `await` in `page.svelte`, but it doesn't work except I turn on an experimental feature, but decided to skip and not explore that route first. (I think that might be Svelte's version of React Server Components?)
+
 ### Looping through todos and props passing
 
 Quite interesting that Svelte uses `{#each}` (expected it to be `for`). And find it cool that I don't have to pass in `key` prop like in React. Props passing does take time for me to get used to, but looks straightforward and simple to me.
