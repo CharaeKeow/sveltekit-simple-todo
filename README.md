@@ -13,4 +13,10 @@ pnpm dev
 pnpm dev -- --open
 ```
 
-## Development Notes
+## Development Logs
+
+This section is my musing as I develop this app.
+
+### Svelte & SvelteKit
+
+On a glance (and as I suspected all this while), Svelte is kinda similar to Vue (_Still prefer React/JSX style tho_). Thanks to my experience in Next, and some of Vue/Nuxt, I can quickly get the hang of both Svelte and SvelteKit (at a very surface level).
