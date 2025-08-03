@@ -7,10 +7,10 @@ This app is created using SvelteKit `npx sv create` command, with the Svelte lib
 To start the dev server, first install the dependencies (`pnpm install`), then run:
 
 ```sh
-pnpm run dev
+pnpm dev
 
 # or start the server and open the app in a new browser tab
-pnpm run dev -- --open
+pnpm dev -- --open
 ```
 
 ## Development Notes
