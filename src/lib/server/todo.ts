@@ -1,6 +1,6 @@
 import type { Todo } from '$lib/types/todo';
 
-// TODO: Extract this to a separate file. Or maybe a DB in the future (skipped this due to time constraint)
+// TODO: Where's the best place to put this? Put here for now.
 export const todos: Todo[] = [
 	{
 		uuid: '1',
